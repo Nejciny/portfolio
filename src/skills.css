@@ -1,0 +1,105 @@
+.skills_container{
+    text-align: center;
+    padding: 100px 0px 150px 0px;
+}
+
+.skills_container h1{
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    margin: auto;
+
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    max-width: 700px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.position{
+    margin-left: 30px;
+    text-align: left;
+}
+.title{
+    font-size: 20px;
+    font-weight: var(--font-semi-bold);
+}
+
+
+
+.skills {
+    position: relative;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+
+    /* background-color: #278383; */
+    background-color: #f3f3f3;
+    border-radius: 20px;
+
+    
+
+}
+
+.skill_logo{
+    color: rgb(42, 84, 201);
+}
+
+
+
+.skill{
+    text-align: center;
+    width: 100px;
+    height: 90px;
+    padding: 5px 0px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 20px 25px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease-out;
+
+
+}
+.skill:hover{
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.skill_logo{
+    font-size: 2rem;
+}
+.skill_logo img{
+    max-height: 30px;
+
+}
+
+.experience_education_container{
+    text-align: left;
+}
+
+.experience_education_container .buttons button{
+    margin-right: 30px ;
+    padding: 10px 20px;
+    border: 1px solid var(--title-color);
+
+}
+
+
+
+@media  screen and (max-width: 786px) {
+    .skills_container{
+        padding-top: 30px;
+    }
+}

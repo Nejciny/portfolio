@@ -1,0 +1,137 @@
+.projects{
+    padding: 50px 0px 100px 0px;
+    background-color: white;
+}
+
+
+.projects-title {
+    color: var(--body-color);
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
+    margin: auto;
+    border-bottom: 1px solid var(--title-color);
+  }
+  
+  .project {
+    height: 400px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    color: var(--white-background);
+    background-color: #161616;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 15px 10px rgb(90, 84, 84); */
+    box-shadow: 5px 5px 15px 10px #8a868e;
+  
+    transition: all 0.3s;
+  
+  }
+  .project:hover{
+    transform: scale(1.02);
+  }
+  
+  .project h2{
+    font-size: 25px;
+    font-weight: var(--font-normal);
+    padding: 20px 0px;
+
+    color: var(--white-background);
+  }
+  
+  .project .text {
+    width: 90%;
+    height: 300px;
+    background-color: white;
+
+    border-radius: 10px;
+  
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .library_demo {
+    background-image: url("../public/images/library_app_demo.JPG");
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .note_app_demo{
+    background-image: url("../public/images/note_app_demo.JPG");
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .boxy_game_demo{
+    background-image: url("../public/images/boxy_game_demo.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .random_website_demo{
+    background-image: url("../public/images/website_demo.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .library_php{
+    background-image: url("../public/images/Library3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .project .text p {
+    padding: 5px 10px;
+  }
+  
+  .project .btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+  
+  }
+  .project .btns a{
+    
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: var(--white-background);
+  
+    font-weight: var(--font-weight-bold);
+    font-size: 20px;
+    padding: 0px 10px;
+  
+    transition: all 0.2s;
+  }
+  .project .btns a:hover{
+    color: rgb(141, 138, 138);
+  }
+  
+
+
+  @media  screen and (max-width: 786px) {
+    .projects-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .projects{
+        padding-top: 30px;
+    }
+    .project{
+      width: 100%;
+    }
+    .project{
+      text-align: center;
+    }
+
+    
+}
