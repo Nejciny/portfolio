@@ -8,18 +8,7 @@ function Projects() {
     <h1 className='projects-title'>Projects</h1>
 
     <div className="projects-container">
-        <div className="project">
-            <h2> Note App</h2>
 
-            <div className="text note_app_demo">
-                <p> </p>
-            </div>
-
-            <div className="btns">
-                <a href="https://github.com/Nejciny/note_app">Github</a>
-                <a href="https://nejckovac-note-app.netlify.app">Demo</a>
-            </div>
-        </div>
         <div className="project ">
             <h2> Library App</h2>
 
@@ -32,6 +21,21 @@ function Projects() {
                 <a href="https://nejckovac-library-app.netlify.app">Demo</a>
             </div>
         </div>
+
+
+        <div className="project">
+            <h2> Note App</h2>
+
+            <div className="text note_app_demo">
+                <p> </p>
+            </div>
+
+            <div className="btns">
+                <a href="https://github.com/Nejciny/note_app">Github</a>
+                <a href="https://nejckovac-note-app.netlify.app">Demo</a>
+            </div>
+        </div>
+
         <div className="project">
             <h2> Boxy game</h2>
 

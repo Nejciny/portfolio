@@ -63,7 +63,7 @@ function Contact() {
     </div>
 
 
-      <h1>Contact me</h1>
+      <h1>Send me a message</h1>
 
       <div className="contact_container">
 

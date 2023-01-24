@@ -96,6 +96,9 @@ input,textarea {
     border-radius: 0.5rem;
     background: #f3f3f3;
 
+    resize: none;
+    overflow: scroll;
+
 }
 
 .popup_container{
