@@ -50,16 +50,16 @@ function Skills() {
 
             <div className="skill">
               <div className="skill_logo">
-                <img src="../images/typescript.svg" alt="" />
+              <img src="../images/react-2.svg" alt="" />
               </div>
-              <p className="skill_title"> Typescript</p>
+              <p className="skill_title"> React</p>
             </div>
 
             <div className="skill">
               <div className="skill_logo">
-              <img src="../images/react-2.svg" alt="" />
+                <img src="../images/wordpress-logo.svg" alt="" />
               </div>
-              <p className="skill_title"> React</p>
+              <p className="skill_title"> Wordpress</p>
             </div>
 
             <div className="skill">

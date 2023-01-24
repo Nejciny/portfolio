@@ -15,6 +15,7 @@ function Data() {
         <Social />
     </div>
   )
+  
 }
 
 export default Data
