@@ -10,6 +10,8 @@
     align-items: center;
 
     border-bottom: 1px solid var(--title-color);
+
+    z-index: 5;
 }
 
 .home_img{

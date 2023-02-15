@@ -1,6 +1,9 @@
 .skills_container{
     text-align: center;
     padding: 100px 0px 150px 0px;
+    
+    position: relative;
+    z-index: 10;
 }
 
 .skills_container h1{

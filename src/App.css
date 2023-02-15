@@ -173,6 +173,29 @@ img {
   align-items: center;
 }
 
+/*=============== CANVAS CONTAINER ===============*/
+
+.canvas_container{
+  position: relative;
+}
+
+.canvas_container canvas{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+  background-color: var(--body-color);
+
+  z-index: 0;
+
+}
+
+
+
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
