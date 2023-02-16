@@ -16,6 +16,7 @@ function App() {
 
   // ---------------------HERO MOUSE ANIMATION---------------------------------------
 
+
   useEffect(() => {
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
@@ -82,6 +83,11 @@ function App() {
     canvas.addEventListener('mousemove', function(event) {
       //  ON SCROLL: the offset is calculated and added to Y coordinate on MOUSE MOVE
       particleArray.push(new Particle(event.x, event.y + offset));
+
+
+      // fixes animation offset bug on file load
+      canvas.width = canvas.getBoundingClientRect().width;
+      canvas.height = canvas.getBoundingClientRect().height;
     });
 
     window.addEventListener('scroll',function(){
