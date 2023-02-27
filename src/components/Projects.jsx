@@ -9,6 +9,19 @@ function Projects() {
 
     <div className="projects-container">
 
+        <div className="project">
+            <h2> Shop App</h2>
+
+            <div className="text shop_app">
+                <p> </p>
+            </div>
+
+            <div className="btns">
+                <a href="https://github.com/Nejciny/shop-app">Github</a>
+                <a href="https://nejckovac-shop-app.netlify.app/">Demo</a>
+            </div>
+        </div>
+
         <div className="project ">
             <h2> Library App</h2>
 
@@ -72,11 +85,7 @@ function Projects() {
             </div>
         </div>
 
-        <div className="project">
-            <h2> In construction...</h2>
 
-
-        </div>
 
     </div>
     </div>

@@ -86,6 +86,11 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .shop_app{
+    background-image: url("../public/images/shop_app.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   
   
   .project .text p {
