@@ -57,9 +57,9 @@ function Skills() {
 
             <div className="skill">
               <div className="skill_logo">
-                <img src="../images/wordpress-logo.svg" alt="" />
+                <img src="../images/angular.svg" alt="" />
               </div>
-              <p className="skill_title"> Wordpress</p>
+              <p className="skill_title"> Angular</p>
             </div>
 
             <div className="skill">
