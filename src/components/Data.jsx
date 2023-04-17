@@ -9,7 +9,7 @@ function Data() {
         {/* <h3 className='home_subtitle'> Web Developer</h3> */}
 
         <p className="home_description"> 
-        Web developer who likes to create web applications and websites in his free time.
+        Web developer 
         </p>
         
         <Social />
