@@ -45,21 +45,14 @@ function Skills() {
               <div className="skill_logo">
               <img src="../images/logo-javascript.svg" alt="" />
               </div>
-              <p className="skill_title"> Javascript</p>
+              <p className="skill_title"> JavaScript</p>
             </div>
 
             <div className="skill">
               <div className="skill_logo">
-              <img src="../images/react-2.svg" alt="" />
+              <img src="../images/typescript.svg" alt="" />
               </div>
-              <p className="skill_title"> React</p>
-            </div>
-
-            <div className="skill">
-              <div className="skill_logo">
-                <img src="../images/angular.svg" alt="" />
-              </div>
-              <p className="skill_title"> Angular</p>
+              <p className="skill_title"> TypeScript</p>
             </div>
 
             <div className="skill">
@@ -81,6 +74,13 @@ function Skills() {
                 <img src="../images/mysql.svg" alt="" />
               </div>
               <p className="skill_title"> MySQL</p>
+            </div>
+
+            <div className="skill">
+              <div className="skill_logo">
+                <img src="../images/wordpress-logo.svg" alt="" />
+              </div>
+              <p className="skill_title"> Wordpress</p>
             </div>
 
 
