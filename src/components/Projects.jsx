@@ -69,8 +69,8 @@ function Projects() {
             </div>
 
             <div className="btns">
-                <a href="https://github.com/Nejciny/random-website.github.io">Github</a>
-                <a href="https://nejciny.github.io/random-website.github.io/">Demo</a>
+                <a href="https://github.com/Nejciny/random_website">Github</a>
+                <a href="https://nejciny.github.io/random_website/">Demo</a>
             </div>
         </div>
         <div className="project">
